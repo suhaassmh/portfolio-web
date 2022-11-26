@@ -8,6 +8,7 @@ import { FaChevronDown } from 'react-icons/fa';
 import ScrollIntoView from 'react-scroll-into-view';
 
 function Card() {
+  
     return(
         <div className="w-full">
              <div className='flex flex-col justify-center max-w-xs mx-auto bg-white shadow-2xl rounded-xl p-5'>
@@ -20,7 +21,7 @@ function Card() {
                         Suhaas Swamy MH
                     </p>
                     <p className='text-xs sm:text-base text-gray-600 pt-2 pb-4 px-5 w-auto inline-block border-b-2'>
-                       Software Engineer
+                       Software Developer
 
                     </p>
                     <div className="flex align-center justify-center mt-4">

@@ -39,11 +39,6 @@ function Footer() {
           <span class="sr-only">Email</span>
         </a>
       </div>
-      {/* <div className="flex align-center justify-center mt-4">
-              <p className="text-black mb-4">
-                  Made with <span className = "mr-2" role="img" aria-label="heart">💙 </span>by<a className="text-blue-500 hover:underline" href="mailto:me.shivansh007@gmail.com"> Shivansh Singh</a>
-              </p>
-              </div> */}
     </div>
   );
 }

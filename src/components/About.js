@@ -1,20 +1,25 @@
 import React from "react";
-// import { FaChevronDown } from 'react-icons/fa';
-// import ScrollIntoView from 'react-scroll-into-view';
-
-//  max-w-4xl mt-20 mx-auto     'max-w-4xl mx-auto justify-center py-12'   📎
 function About() {
   return (
     <div>
       <div className="max-w-4xl mx-auto justify-center py-12" id="aboutme">
         <p className="text-2xl text-slate-800  md:text-4xl font-bold text-center">
-          Hi,
+          Hello World,
         </p>
-        <p className="text-base text-left md:text-center text-slate-800 font-semibold leading-loose mt-4 justify-around">
-          I'm a Passionate Engineer, Quick learner, adept at picking up cutting
-          edge tech with a passion for Software development and Design. Loves
-          good challenges and always up for learning new annd exploring creative
-          ideas. Completed BE in Computer Science Engineering.
+        <p className="text-base  text-center text-slate-800 font-semibold leading-loose mt-4 justify-around">
+          About Me: CSE undergrad, a Software Developer, and a Tech Enthusiast;
+          passionate about App development, Design, UI/UX, ChatBots, Machine
+          learning. I'm always excited about making things more generic,
+          dynamic, and robust. Loves good challenges and always up for learning
+          new and explore creative ideas.{" "}
+          <a
+            href="https://drive.google.com/file/d/1yWIyZtHy96RortKz82eUK0hqNAN6glzb/view?usp=sharing"
+            className="text-sky-600"
+          >
+            {" "}
+            Click here{" "}
+          </a>{" "}
+          to view my Resume.
         </p>
       </div>
 
