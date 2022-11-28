@@ -13,7 +13,7 @@ function About() {
           dynamic, and robust. Loves good challenges and always up for learning
           new and explore creative ideas.{" "}
           <a
-            href="https://drive.google.com/file/d/1yWIyZtHy96RortKz82eUK0hqNAN6glzb/view?usp=sharing"
+            href="https://drive.google.com/file/d/19SBb1-iw-sklCMazSHqzUwCCc645ODwC/view?usp=sharing"
             className="text-sky-600"
           >
             {" "}
