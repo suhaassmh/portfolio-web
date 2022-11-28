@@ -7,7 +7,7 @@ function About() {
           Hello World,
         </p>
         <p className="text-base  text-center text-slate-800 font-semibold leading-loose mt-4 justify-around">
-          About Me: CSE undergrad, a Software Developer, and a Tech Enthusiast;
+          About Me: CSE undergrad, a Software Development Engineer, and a Tech Enthusiast;
           passionate about App development, Design, UI/UX, ChatBots, Machine
           learning. I'm always excited about making things more generic,
           dynamic, and robust. Loves good challenges and always up for learning
