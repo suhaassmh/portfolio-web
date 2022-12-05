@@ -3,8 +3,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaDribbble } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 function Footer() {
   return (

@@ -7,13 +7,13 @@ function About() {
           Hello World,
         </p>
         <p className="text-base  text-center text-slate-800 font-semibold leading-loose mt-4 justify-around">
-          About Me: CSE undergrad, a Software Development Engineer, and a Tech Enthusiast;
-          passionate about App development, Design, UI/UX, ChatBots, Machine
-          learning. I'm always excited about making things more generic,
-          dynamic, and robust. Loves good challenges and always up for learning
-          new and explore creative ideas.{" "}
+          About Me: CSE undergrad, software development engineer, and tech
+          enthusiast who is fascinated about chatbots, machine learning, design,
+          UI/UX, and app development. Making something more general, dynamic,
+          and resilient always excites me. Enjoys a challenge, is constantly
+          eager to learn something new, and is creatively inclined.{" "}
           <a
-            href="https://drive.google.com/file/d/19SBb1-iw-sklCMazSHqzUwCCc645ODwC/view?usp=sharing"
+            href="https://drive.google.com/file/d/11rs0W4cCEVUYWi736OCv8pTO2HYfW0Tf/view?usp=sharing"
             className="text-sky-600"
           >
             {" "}

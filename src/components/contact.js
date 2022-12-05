@@ -8,7 +8,7 @@ export default function ContactMe() {
       id="contactme"
     >
       <h1 className="text-4xl font-bold text-slate-800">Contact Me</h1>
-      <a href="https://drive.google.com/file/d/19SBb1-iw-sklCMazSHqzUwCCc645ODwC/view?usp=sharing">
+      <a href="https://drive.google.com/file/d/11rs0W4cCEVUYWi736OCv8pTO2HYfW0Tf/view?usp=sharing">
         <span className="mt-10 mx-10 inline-block w-auto bg-slate-800 font-display text-white text-base font-bold md:text-xl py-4 px-7 cursor-pointer drop-shadow-2xl hover:drop-shadow-md rounded">
           <div className="flex flex-row items-center">
             <span className="mr-3 ">View CV</span>

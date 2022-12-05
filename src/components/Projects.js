@@ -1,14 +1,11 @@
 import React, { useEffect } from "react";
 import { FcTodoList } from "react-icons/fc";
 import { GiMirrorMirror } from "react-icons/gi";
-import { GiTicTacToe } from "react-icons/gi";
+import { FcMoneyTransfer } from "react-icons/fc";
 import { FcNews } from "react-icons/fc";
 import { RiScalesFill } from "react-icons/ri";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
-
-
 
 function Project() {
   useEffect(() => {
@@ -28,7 +25,74 @@ function Project() {
 
         <table class="table-auto justify-center text-base font-semibold leading-relaxed mt-4 mx-auto">
           <tbody>
-            <tr className="border-b-2 max-w-4xl" data-aos="fade-right" data-aos-duration="400" data-aos-delay="100">
+            <tr
+              className="border-b-2 max-w-4xl"
+              data-aos="fade-right"
+              data-aos-duration="600"
+              data-aos-delay="200"
+            >
+              <td className="w-3/10 px-auto sm:w-2/10 text-3xl sm:text-5xl m-auto sm:m-0 transition-colors duration-300 ">
+                <FcTodoList />
+              </td>
+
+              <td className="w-6/10 sm:w-2/10">
+                <p className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-center transition-colors duration-300">
+                  Habitude app{" "}
+                </p>
+              </td>
+
+              <td className="w-5/10 hidden sm:table-cell ">
+                <p className=" text-l m-1 p-1 sm:m-2 sm:p-2 text-left  transition-colors duration-300 ">
+                  An application used to track Habits, Used Hive storage to
+                  store data locally and worked on heat map package in
+                  displaying a calendar themed tracking system.
+                </p>
+              </td>
+
+              <td className="w-3/10 sm:w-1/10">
+                {" "}
+                <a href="https://github.com/suhaassmh/Habitude-app">Link🔗</a>
+              </td>
+            </tr>
+
+            <tr
+              className="border-b-2 max-w-4xl"
+              data-aos="fade-right"
+              data-aos-duration="800"
+              data-aos-delay="300"
+            >
+              <td className="w-3/10 px-auto sm:w-2/10 text-3xl sm:text-5xl m-auto sm:m-0 transition-colors duration-300">
+                <FcMoneyTransfer />
+              </td>
+
+              <td className="w-6/10 sm:w-2/10">
+                <p className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-center transition-colors duration-300">
+                  Expense Tracker{" "}
+                </p>
+              </td>
+
+              <td className="w-5/10 hidden sm:table-cell ">
+                <p className=" text-l m-1 p-1 sm:m-2 sm:p-2 text-left  transition-colors duration-300 ">
+                  A simple application linked with Google sheets, used Google
+                  sheets API to connect and store data in it, retrieve data
+                  directly from G-Sheets.
+                </p>
+              </td>
+
+              <td className="w-3/10 sm:w-1/10">
+                {" "}
+                <a href="https://github.com/suhaassmh/Expense-Tracker-App">
+                  Link🔗
+                </a>
+              </td>
+            </tr>
+
+            <tr
+              className="border-b-2 max-w-4xl"
+              data-aos="fade-right"
+              data-aos-duration="400"
+              data-aos-delay="100"
+            >
               <td className="w-3/10 px-auto sm:w-2/10 text-3xl sm:text-5xl m-auto sm:m-0 transition-colors duration-300 ">
                 <GiMirrorMirror />
               </td>
@@ -55,56 +119,12 @@ function Project() {
               </td>
             </tr>
 
-            <tr className="border-b-2 max-w-4xl"  data-aos="fade-right" data-aos-duration="600" data-aos-delay="200">
-              <td className="w-3/10 px-auto sm:w-2/10 text-3xl sm:text-5xl m-auto sm:m-0 transition-colors duration-300 ">
-                <FcTodoList />
-              </td>
-
-              <td className="w-6/10 sm:w-2/10">
-                <p className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-center transition-colors duration-300">
-                  ToDo app{" "}
-                </p>
-              </td>
-
-              <td className="w-5/10 hidden sm:table-cell ">
-                <p className=" text-l m-1 p-1 sm:m-2 sm:p-2 text-left  transition-colors duration-300 ">
-                  A fully-fledged TODO mobile application. Built using Flutter
-                  framework. User can set priority for their upcoming task in
-                  the app.
-                </p>
-              </td>
-
-              <td className="w-3/10 sm:w-1/10">
-                {" "}
-                <a href="https://github.com/suhaassmh/myTODO">Link🔗</a>
-              </td>
-            </tr>
-
-            <tr className="border-b-2 max-w-4xl"  data-aos="fade-right" data-aos-duration="800" data-aos-delay="300">
-              <td className="w-3/10 px-auto sm:w-2/10 text-3xl sm:text-5xl m-auto sm:m-0 transition-colors duration-300 ">
-                <GiTicTacToe />
-              </td>
-
-              <td className="w-6/10 sm:w-2/10">
-                <p className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-center transition-colors duration-300">
-                  TicTacToe{" "}
-                </p>
-              </td>
-
-              <td className="w-5/10 hidden sm:table-cell ">
-                <p className=" text-l m-1 p-1 sm:m-2 sm:p-2 text-left  transition-colors duration-300 ">
-                  A simple interactive TicTacToe mobile game application, with
-                  clean UI. Developed using Flutter framework.
-                </p>
-              </td>
-
-              <td className="w-3/10 sm:w-1/10">
-                {" "}
-                <a href="https://github.com/suhaassmh/TicTacToe">Link🔗</a>
-              </td>
-            </tr>
-
-            <tr className="border-b-2 max-w-4xl"  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+            <tr
+              className="border-b-2 max-w-4xl"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
               <td className="w-3/10 px-auto sm:w-2/10 text-3xl sm:text-5xl m-auto sm:m-0 transition-colors duration-300 ">
                 <FcNews />
               </td>
@@ -129,7 +149,12 @@ function Project() {
               </td>
             </tr>
 
-            <tr className="border-b-2 max-w-4xl"  data-aos="fade-right" data-aos-duration="1200" data-aos-delay="500">
+            <tr
+              className="border-b-2 max-w-4xl"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="500"
+            >
               <td className="w-3/10 px-auto sm:w-2/10 text-3xl sm:text-5xl m-auto sm:m-0 transition-colors duration-300">
                 <RiScalesFill style={{ color: "crimson" }} />
               </td>
